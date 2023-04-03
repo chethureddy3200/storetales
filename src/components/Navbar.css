@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+
+.navbar {
+    color: #281F09;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    margin: 0 12px;
+}
+
+.navbar h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}

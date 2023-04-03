@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Arapey&family=Gloock&family=Patrick+Hand+SC&display=swap');
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 35%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(112, 98, 67, 0.2);
+}
+
+.signup-form label{
+    font-family: 'Arapey', serif;
+    margin: 15px 0;
+    display: block;
+    font-size: 1.3rem;
+}
+
+.signup-form h1{
+    font-family: 'Gloock', serif;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    margin-bottom: 6px;
+}
+
+.signup-form p{
+    font-family: 'Gloock', serif;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signup-form input{
+    font-family: 'Arapey', serif;
+    font-size: 1rem;
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 2px solid #CDC0A3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    margin: 15px 0;
+}
+
+.signup-form input:focus{
+    outline: none;
+    border: 3px #CDC0A3 solid;
+}
+
+.signup-form .last{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.signup-form button{
+    font-family: 'Patrick Hand SC', cursive;
+    background-color: rgba(150, 119, 51, 0.5);
+    padding: 6px 40px;
+    margin-right: auto;
+    border: none;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: 100%;
+    letter-spacing: 0.2rem;
+}
+
+.footer-text{
+    font-family: 'Antic Didone', serif;
+    text-align: center;
+    font-size: 1.2rem;
+}

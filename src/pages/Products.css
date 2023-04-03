@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Arapey&family=Gloock&family=Patrick+Hand+SC&display=swap');
+
+img{
+    margin: 0;
+    height: 350px;
+    width: 230px;
+}
+
+.product-title{
+    font-family: 'Gloock', cursive;
+    margin: 0 20px ;
+}
+
+.card-row{
+    display: flex;
+    margin: 20px auto;
+}
+
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card h3{
+    margin: 5px 0;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.btn{
+    width: 100px;
+    padding: 20px;
+    border: none;
+    background-color: rgba(150, 119, 51, 0.5);
+    padding: 6px 40px;
+}
